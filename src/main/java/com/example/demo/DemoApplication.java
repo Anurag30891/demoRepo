@@ -7,8 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DemoApplication {
 
 	public void addData(String data) {
-		System.out.println("data =" + data);
-		if (data.equals("anurag")) {
+		if (data.equals(Constant.DATA_TYPE)) {
 			System.out.println("Welcome");
 		}
 	}
